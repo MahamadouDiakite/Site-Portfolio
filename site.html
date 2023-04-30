@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site-Web portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+<!-- Navbar  Section Start -->
+<header>
+    <a href="#" class="logo">MOH <span>Dev</span>.</a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+        <li><a href="#home" class="nav-link " active>Accueil</a></li>
+        <li><a href="#about" class="nav-link"> A Propos </a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projet" class="nav-link">Projets</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <div class="bx bx-moon" id="darkmode"></div>
+    </ul>
+</header>
+<!-- Fin de la barre de navigation -->
+<!-- Début du menu -->
+<section class="home" id="home">
+    
+    <div class="home-img">
+        <img src="Profil.png" alt="">
+    </div>
+    <div class="home-text">
+        <span>Salut, je suis</span>
+        <h1>Mahamadou DIAKITE</h1>
+        <h2>Développeur Fullstack</h2>
+        <p> <br>Jeune développeur dynamique, éfficace, prêt à satisfaire toutes 
+            les demandes des clients. Avec moi , la satisfaction est assurée .  <br> </p>
+        <a href="Mon Curriculum vitae.pdf"download class="btn">Télécharger CV</a>
+    </div>
+</section>
+<!-- Home Section End -->
+<!-- About Section Start -->
+
+<section class="about" id="about">
+    <div class="heading">
+        <h2>A Propos de Moi</h2>
+        <span>Ce que je fais.</span>
+    </div>
+
+    <div class="about-container">
+        
+        <div class="about-img">
+           <video autoplay muted src="Gschool~2.mp4" width="400px" height="300px" alt="" onclick="afficherPleinEcran(this)">
+           </video>
+        </div>
+        <div class="about-text">
+            <p>Je suis un développeur full stack, donc je travaille à la fois sur le Frontend et le Backend, un professionnel. 
+                Mon travail consiste principalement à écrire du code, c'est-à-dire à créer des commandes en langage informatique dans le but de créer un produit informatique 
+                (site web, application mobile, interface utilisateur, jeu ou logiciel).</p>
+            <div class="information">
+                <div class="info-box">
+                    <i class='bx bxs-user'></i>
+                    <span>Mahamadou</span>
+                </div>
+
+                <div class="info-box">
+                    <i class='bx bxs-phone'></i>
+                    <span>+223 74 04 80 58</span>
+                </div>
+
+                <div class="info-box">
+                    <i class='bx bxs-envelope'></i>
+                    <span>mahamadouDiakite294@gmail.com</span>
+                </div>
+            </div>
+            <a href="Mon Curriculum vitae.pdf" download class="btn">Télécharger Cv</a>
+        </div>
+    </div>
+</section>
+<!-- Fin Accueil -->
+
+<!-- début Service -->
+<section class="services" id="services">
+    <div class="heading">
+        <h2> Mes Services</h2>
+        <span>Pour vous satisfaire</span>
+    
+    </div>
+    <div class="services-content">
+
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3> Developpement Web</h3>
+            <a href="">Le Développemnt web est le codage qui permet de faire fonctionner
+                un site Web, selon les exigences du propriétaire.
+            </a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bx-server'></i>
+            <h3> Developpement Fullstack</h3>
+            <a href="">A la fois développeur back-end et front-end, en fonction de vos besoins
+                on peut peut travailler sur n'importe qu'elle facette d'un site , logiciciel et configurer 
+                selon tous les aspects voulus par le client.
+            </a>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-brush'></i>
+            <h3>UI/UX Design</h3>
+            <a href="">Réaliser vos mock-up et maquettes en un temps record , nécessaires à la réalisation finale 
+                des optimisations graphique par les développeurs.</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxl-android'></i>
+            <h3> Development mobile</h3>
+            <a href="">La création et des diffusions des applications mobiles qui repond à toutes les demandes des clients, 
+                 dans le respect d'une charte de fiabilité et de sécurité stricte 
+            </a>
+        </div>
+    </div>
+</section>
+<!-- Services Section End -->  
+<!-- début Projets -->
+<section class="services" id="projet">
+    <div class="heading">
+        <h2>Mes projets</h2>
+        <span>Innovation</span>
+    
+    </div>
+    <div class="services-content">
+
+        <div class="services-box">
+            <video autoplay muted src="Gestion de Stock~2.mp4" height="200px" width="200px" alt="" onclick="afficherPleinEcran(this)" ></video>
+            <h3>Application Gestion</h3>
+           
+            <a href="">Cliquer ici</a>
+        </div>
+
+        <div class="services-box">
+            <video autoplay muted src="Gschool~2.mp4" width="200px" height="200px" alt="" onclick="afficherPleinEcran(this)" >
+            </video>
+            <h3>Gestion d'école</h3>
+            <a href="">Cliquer ici</a>
+        </div>
+        <div class="services-box">
+            <img src="dashboad.jpg" width="200px" height="200px" alt="" onclick="afficherPleinEcran(this)">
+            <h3>Tableau de bord</h3>
+            <a href="">Cliquer ici</a>
+        </div>
+
+        <div class="services-box">
+            <video autoplay muted src="E-commerce.mp4" width="200px" height="200px" alt="" onclick="afficherPleinEcran(this)" ></video>
+            <h3>Site E-commerce</h3>
+            <a>Cliquer ici</a>
+        
+        </div>
+    </div>
+</section>
+<!-- fin de projet-->
+
+<!-- Contact Section Start -->
+<section class="contact" id="contact">
+    <div class="heading">
+        <h2>Contact</h2>
+        <span>Contacter moi</span>
+    </div>
+    <div class="contact-form">
+        <form action="" >
+            <input type="text" placeholder="Vôtre nom">
+            <input type="email" name="" id="" placeholder="Vôtre Email">
+
+                <textarea type="textarea" name="" id="" cols="30" rows="10" placeholder="Ecrivez Vôtre Message Ici ..."></textarea>
+            <input type="button" value="Envoyer" class="contact-button">
+                                </form>
+                            </div>
+                            </section>
+                            <!-- Contact Section End -->
+                         <div class="footer">
+                                <h2>Suivez moi!!!</h2>
+                                <div class="footer-social">
+                                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                                </div>
+
+                            </div>
+                            <div class="copyright">
+                                <p>Copyright © 2023 | Créé par Mahamadou DIAKITE .</p>
+                            </div>
+                            <!-- Javascript -->
+                            <script src="script.js"></script>
+</body>
+
+</html>
